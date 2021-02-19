@@ -1,0 +1,313 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear_fix {
+    overflow: auto;
+    zoom: 1;
+}
+/* ----------------header----------------------------- */
+.header{
+    background-image: url("../images/header/overlay.png");
+}
+.top{
+    margin-left: 100px;
+    padding-top: 45px;
+}
+#logo{ 
+    float: left;
+}
+
+#menu {
+    padding-left: 240px;
+}
+#menu ul{
+    float: left;
+    padding-right: 150px;
+}
+#menu ul li{
+    display: inline-block;
+    padding-left: 50px;
+}
+#menu ul li a:hover{
+    color: brown;
+}
+#menu ul li a{
+    font-size: 14px;
+    color: white;
+    font-family: "Averta PE Semibold";
+    font-style: bold;
+}
+#search{
+    border: 1px black solid;
+    height: 20px;
+    border-radius: 5%;
+    left: -100px;
+    position: absolute;
+    display: none;
+}
+#right-header ul{
+}
+#right-header ul li{
+    position: relative;
+    display: inline-block;
+    padding-left: 19px;
+    margin-top: 0px;
+}
+.dropdown{
+    border-radius: 5px;
+    left: 0;
+    width: 130px;
+    position: absolute;
+    background-color: gray;
+    display: none;
+}
+.dropdown li a{
+    font-size: 14px;
+    color: white;
+    font-family: "Averta PE Semibold";
+    font-style: bold;
+}
+.dropdown li a:hover{
+    color: brown;
+}
+#title{
+    margin-top: 200px;
+}
+#title1{
+    font-size: 14px;
+    text-align: center;
+    font-family: "Averta PE";
+    font-weight: bold;
+    color: white;
+}
+#title2{
+    margin-top: 0px
+}
+#title-top{
+    font-family: "Playfair Display bold";
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+#title-bottom{
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+#down{
+    padding-top: 147px;
+    padding-bottom: 62px;
+}
+#down p{
+    text-align: center;
+}
+/* -----------------------about us--------------------------- */
+#about-us-top{
+    padding-top: 98px;
+}
+#about-us-top p{
+    text-align: center;
+}
+#title-top p{
+    color: black;
+    font-size: 38px;
+    font-family: "Playfair Display";
+    font-style: bold;
+}
+#content-mid{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#content-mid p{
+    font-family: "Averta PE";
+    font-size: 15px;
+    font-style: "Regular";
+    color:#5F5F5F;
+}
+#chu-ky{
+    padding-bottom: 98px;
+}
+#about-us-bottom{
+    background-image: url("../images/about-us/pattern bg.png");
+}
+#info{
+    padding-left: 103px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#info-1{
+    float: left;
+    padding-right: 78px;
+}
+#info-2{
+    float: left;
+    padding-right: 78px;
+}
+#info-3{
+    float: left;
+    padding-right: 78px;
+}
+.left{
+    display: inline-block;
+}
+.right{
+    padding-left: 25px;
+    display: inline-block;
+}
+.right p{
+    font-family: "Averta PE";
+    color: white;
+}
+
+/* -----------------latest projects----------------- */
+#latest-projects{
+    padding-top: 100px;
+}
+#latest-projects-top{}
+#latest-projects-title p{
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+#latest-project-content{
+    padding-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Averta PE";
+    font-style: "regular";
+    color:#5F5F5F;
+}
+#latest-project-images{
+    padding-top: 60px;
+}
+#latest-project-images p{
+}
+.project-images{
+    padding-left: 100px;
+}
+.project-images img{
+    float: left;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+#lastest-project-mid{
+    margin-top: 1250px;
+    background-image:url("../images/latest-project/pattern-bg.png");
+    height: 500px;
+}
+#lastest-project-mid-content{
+    padding-top: 178px;
+}
+#lastest-project-mid-content p{
+    font-family: "Playfair Display";
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+#lastest-project-mid-author{
+    padding-top: 39px;
+}
+#lastest-project-mid-author p{
+    font-family: "Averta PE";
+    font-style: "Regular";
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+#lastest-project-bottom{
+    text-align: center;
+    padding-top: 70px;
+}
+#lastest-project-bottom p{ 
+    display: inline-block;
+    margin-right: 150px;
+}
+
+/* ---------------------latest news---------------------- */
+#latest-news{
+    padding-top: 170px;
+}
+#latest-news-top h3{
+    font-family: "Playfair Display";
+    font-style: bold;
+    font-size: 38px;
+    text-align: center;
+}
+#latest-news-top p{
+    font-family: "Averta PE";
+    font-style: "Regular";
+    text-align: center;
+    color: #5F5F5F;
+}
+#latest-news-bottom{
+    padding-top: 60px;
+    margin-left: 50px;
+}
+.latest-news-bottom-1{
+    float: left;
+    padding-left: 30px;
+}
+#latest-news-bottom-images{
+    position: absolute;
+
+}
+#latest-news-bottom-images-category{
+    margin-top: 200px;
+    margin-left: 10px;
+    background-color: #252525;
+    width: 90px;
+    height: 30px;
+}
+#latest-news-bottom-images-category p{
+    padding-top: 8px;
+    font-size: 11px;
+    text-align: center;
+    font-family: "Averta PE";
+    color: white;
+}
+#latest-news-bottom-title{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+#latest-news-bottom-title h3:hover{
+    color: brown;
+}
+#latest-news-bottom-title h3{
+    color: black;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-style: bold;
+}
+#latest-news-bottom-time{
+    margin-top: 23px;
+    padding-left: 30px;
+}
+#latest-news-bottom-time p{
+    font-family: "Averta PE";
+    font-style: "Semibold";
+    font-size: 12px;
+}
+#latest-news-bottom-content{
+    margin-top: 23px;
+    padding-left: 30px;
+}
+#latest-news-bottom-content p{
+    font-family: "Averta PE";
+    font-size: 12px;
+    color: #5F5F5F;
+    padding-bottom: 147px;
+}
